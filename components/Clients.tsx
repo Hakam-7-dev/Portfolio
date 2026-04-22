@@ -4,10 +4,10 @@ import { companies, testimonials } from '@/data'
 const Clients = () => {
   return (
     <div className='py-20' id='testimonials'>
-      <h1 className='heading'>
-        Kind words from
+      <h1 className='heading mb-7'>
+        Feedback from 
           <span className='text-purple-300'>
-           <br /> satisfied clients
+           {" "} collaborators
           </span>
             </h1>
     <div className='flex flex-col items-center'>

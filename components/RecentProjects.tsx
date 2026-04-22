@@ -8,10 +8,10 @@ const RecentProjects = () => {
       <div className='py-20'>
       <div>
       <h1 className='heading' id='projects'>
-    A small selection of {""}
+    Recent React {" "}
     <span className='text-purple-300'>
-      recent projects
-    </span>
+projects 
+ </span>
       </h1>
       </div>
       <div className= "flex justify-center items-center p-4 gap-x-24 gap-y-8  mt-10 flex-wrap">
