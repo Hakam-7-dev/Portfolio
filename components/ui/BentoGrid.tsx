@@ -140,8 +140,8 @@ export const BentoGridItem = ({
       />
 
       {copied && (
-        <div className="flex items-center justify-center pointer-events-none absolute top-10">
-          <div className="w-[280px] h-[280px] ">
+        <div className="flex items-center justify-center pointer-events-none absolute -top-55">
+          <div className="w-[320px] h-[320px] ">
             <Lottie
             animationData={animationData}
             loop = {false}
