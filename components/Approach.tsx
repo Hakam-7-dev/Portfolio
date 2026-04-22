@@ -127,17 +127,11 @@ const Card = ({
         >
           {description}
         </p>
-
-        {/* Mobile hint */}
-        <p className="text-xs text-gray-400 mt-4 lg:hidden">
-          Tap to interact
-        </p>
       </div>
     </div>
   );
 };
 
-/* ---------------- ICON ---------------- */
 
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
@@ -168,8 +162,6 @@ const AceternityIcon = ({ order }: { order: string }) => {
     </div>
   );
 };
-
-/* ---------------- ICON ---------------- */
 
 export const Icon = ({ className, ...rest }: any) => {
   return (
