@@ -17,7 +17,7 @@ export default function Home() {
         <About />
         <Grid />
         <RecentProjects />
-        <Clients />
+        {/* <Clients /> */}
         <Experience />
         <Approach />
         <Footer />
