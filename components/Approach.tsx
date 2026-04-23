@@ -8,7 +8,7 @@ export const Approach = () => {
   return (
     <section className="w-full py-20 px-4">
       <h1 className="heading text-center">
-        Features <span className="text-purple-400">process</span>
+        Feature <span className="text-purple-400">process</span>
       </h1>
 
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">

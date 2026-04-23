@@ -2,13 +2,12 @@ import React from 'react'
 import {projects} from "@/data";
 import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa';
-import { div } from 'three/src/nodes/math/OperatorNode.js';
 const RecentProjects = () => {
   return (
       <div className='py-20'>
       <div>
       <h1 className='heading' id='projects'>
-    Recent React {" "}
+    Recent {" "}
     <span className='text-purple-300'>
 projects 
  </span>
